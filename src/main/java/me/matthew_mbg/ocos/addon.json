@@ -2,5 +2,5 @@
   "uuid": "%uuid%",
   "name": "OCOS",
   "mainClass": "me.matthew_mbg.ocos.OCOS",
-  "transformerClass": "me.matthew_mbg.ocos.TestOCOSTransformer"
+  "transformerClass": "me.matthew_mbg.ocos.ExampleOCOSTransformer"
 }

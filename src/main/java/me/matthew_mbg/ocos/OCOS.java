@@ -1,6 +1,13 @@
 package me.matthew_mbg.ocos.ocos;
 
 import net.labymod.api.LabyModAddon;
+import net.labymod.api.event.events.network.server.DisconnectServerEvent;
+import net.labymod.api.event.events.network.server.LoginServerEvent;
+import net.labymod.gui.elements.DropDownMenu;
+import net.labymod.settings.elements.BooleanElement;
+import net.labymod.settings.elements.ControlElement;
+import net.labymod.settings.elements.DropDownElement;
+import net.labymod.settings.elements.NumberElement;
 import net.labymod.settings.elements.SettingsElement;
 
 import java.util.List;
@@ -11,15 +18,22 @@ public class OCOS {
 
 
 /**
- * Test addon
+ * OCOS
  */
-public class OCOS extends LabyModAddon {
+public class OCOS
+extends LabyModAddon {
+	
+    public static OCOS getInstance() {
+      return instance;
+    }
 
     /**
      * Called when the addon gets enabled
      */
     @Override
     public void onEnable() {
+      instance = this;
+      this.getApi().getEventService().registerListener((Object)this);
       System.out.println("Starting " + NAMEVERSION + " by " + AUTHOR + ".");
 
     }

@@ -1,4 +1,4 @@
-package me.matthew_mbg.ocos;
+package me.matthew_mbg.ocos.exampleocostransformer;
 
 import net.labymod.addon.AddonTransformer;
 import net.labymod.api.TransformerType;

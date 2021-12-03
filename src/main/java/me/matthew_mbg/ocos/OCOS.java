@@ -1,4 +1,4 @@
-package me.matthew_mbg.ocos;
+package me.matthew_mbg.ocos.ocos;
 
 import net.labymod.api.LabyModAddon;
 import net.labymod.settings.elements.SettingsElement;

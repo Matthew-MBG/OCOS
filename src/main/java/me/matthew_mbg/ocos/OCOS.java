@@ -65,5 +65,5 @@ extends LabyModAddon {
     protected void fillSettings( List<SettingsElement> subSettings ) {
 
     }
-
+}
 }

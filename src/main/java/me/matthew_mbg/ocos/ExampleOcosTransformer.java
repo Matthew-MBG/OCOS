@@ -3,7 +3,7 @@ package me.matthew_mbg.ocos.exampleocostransformer;
 import net.labymod.addon.AddonTransformer;
 import net.labymod.api.TransformerType;
 
-public class ExampleAddonTransformer extends AddonTransformer {
+public class ExampleOcosTransformer extends OcosTransformer {
 
   @Override
   public void registerTransformers() {

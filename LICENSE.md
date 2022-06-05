@@ -1,0 +1,11 @@
+## The "I Do Not Care" Public License
+
+This license gives you permission to do whatever the hell you want with this software.
+
+```
+I DO NOT CARE PUBLIC LICENSE
+
+Terms and Conditions:
+- I do not care. You are free to modify, distribute, and do anything with this software, for any purpose.
+- Do not bother me, software is provided as-is, and I am not liable for anything you break trying to use my software.
+```
